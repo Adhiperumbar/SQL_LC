@@ -1,11 +1,16 @@
--- Problem #: LeetCode 1581
--- Title: Customer Who Visited but Did Not Make Any Transactions
--- Table: Visits(visit_id, customer_id), Transactions(visit_id, transaction_id, amount)
--- Goal: Return each customer_id and the number of visits with no transactions
--- Tags: left join, aggregation, null check
+-- Problem #: LeetCode 184
+-- Title: Department Highest Salary
+-- Table: Employee(id, name, salary, departmentId), Department(id, name)
+-- Goal: Return the name of each department and the name of the employee with the highest salary in that department
+-- Tags: join, subquery, filtering, max
 
-SELECT V.customer_id,
-       COUNT(CASE WHEN T.transaction_id IS NULL THEN 1 END) AS count_no_trans
-FROM Visits V
-LEFT JOIN Transactions T ON V.visit_id = T.visit_id
-GROUP BY V.customer_id;
+SELECT d.name AS Department,
+       e.name AS Employee,
+       e.salary AS Salary
+FROM Employee e
+JOIN Department d ON e.departmentId = d.id
+WHERE (e.departmentId, e.salary) IN (
+    SELECT departmentId, MAX(salary)
+    FROM Employee
+    GROUP BY departmentId
+);

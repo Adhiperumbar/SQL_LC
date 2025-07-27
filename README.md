@@ -45,4 +45,10 @@ Tags: left join, null check, conditional count.
 
 9. Rising Temperature
 Goal: Return the IDs where today's temperature is higher than yesterday's and the dates are consecutive.
+
+## ✅ Day 4 — Problems Solved
+
+ 10. Employee With At Least Five Direct Reports
+Goal: Return names of employees who are managers with 5 or more direct reports.
+Tags: group by, aggregation, having, subquery, filtering
 Tags: window function, LAG(), date comparison, filtering
