@@ -52,3 +52,13 @@ Goal: Return the IDs where today's temperature is higher than yesterday's and th
 Goal: Return names of employees who are managers with 5 or more direct reports.
 Tags: group by, aggregation, having, subquery, filtering
 Tags: window function, LAG(), date comparison, filtering
+
+## ✅ Day 5 — Problems Solved
+
+ 11. Project Employees I
+Goal: Return the average experience (rounded to 2 decimals) of employees working on each project.
+Tags: join, aggregation, group by, rounding
+
+ 12. Averaage Selling Price
+ Goal: Return the average selling price for each product, or 0 if no units sold, rounded to 2 decimals.
+Tags: left join, join condition, null handling, division, rounding
