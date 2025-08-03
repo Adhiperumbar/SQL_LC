@@ -59,6 +59,6 @@ Tags: window function, LAG(), date comparison, filtering
 Goal: Return the average experience (rounded to 2 decimals) of employees working on each project.
 Tags: join, aggregation, group by, rounding
 
- 12. Averaage Selling Price
+ 12. Average Selling Price
  Goal: Return the average selling price for each product, or 0 if no units sold, rounded to 2 decimals.
 Tags: left join, join condition, null handling, division, rounding
