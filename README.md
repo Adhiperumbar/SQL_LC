@@ -79,3 +79,8 @@ This repository contains my solutions for the LeetCode SQL50 and some other prob
     Tags: subquery, filtering, MAX(), aggregate
 
 ---
+## ✅ Day 7 — Problems Solved
+
+14. [Rank Scores](https://leetcode.com/problems/rank-scores/)
+Goal: Rank scores in descending order using DENSE_RANK(), ensuring that ties receive the same rank without gaps.
+Tags: window function, DENSE_RANK(), ordering, ranking
