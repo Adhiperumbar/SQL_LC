@@ -84,3 +84,9 @@ This repository contains my solutions for the LeetCode SQL50 and some other prob
 14. [Rank Scores](https://leetcode.com/problems/rank-scores/)
 Goal: Rank scores in descending order using DENSE_RANK(), ensuring that ties receive the same rank without gaps.
 Tags: window function, DENSE_RANK(), ordering, ranking
+
+## ✅ Day 8 — Problems Solved
+
+15. [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+Goal: Return the top 3 highest salaries in each department along with department name, employee name, and salary.
+Tags: join, window function, DENSE_RANK(), PARTITION BY, filtering
